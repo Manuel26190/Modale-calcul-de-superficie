@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8ad4ebeb56.js" crossorigin="anonymous"></script>
+    <title>Calcul superficie</title>
+</head>
+<body>
+    <header>
+        <section class="header-section">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h1>Top Brico</h1>
+        </section>
+        <nav>
+            <ul>
+                <li>Outillage</li>
+                <li>Décoration</li>
+                <li>Gros Oeuvres</li>
+            </ul>
+        </nav>        
+    </header>
+    <main>
+        <section class="section-modale-superficie" style="display:none">
+            <i class="fa-solid fa-xmark"></i>
+            <div class="div-modale-superficie">
+                <h2>Entrez votre longueur et votre largeur dans les champs</h2>           
+                      
+                    
+                <form oninput="resultat.value=parseInt(a.value)*parseInt(b.value)" class="form-superficie">
+                    <input type="number" id="a" class="input-number longueur" type="number" name="howmuchlong" placeholder="longueur en mètres">
+                    <input type="number" id="b" class="input-number largeur" type="number" name="howmuchlarge" placeholder="largeur en mètres">
+                    <p class="text-output">Superficie de la pièce :</br> 
+                        <output name="resultat" for="a b" class="resultat-superficie"></output> m²
+                     </p>                    
+                </form>                   
+            </div>
+        </section>
+        <section class="section-boutton-superficie">
+            <button class="superficie">Calculez la superficie de votre pièce</button>
+        </section>
+    </main>
+
+<script src="script.js"></script>  
+</body>
+</html>

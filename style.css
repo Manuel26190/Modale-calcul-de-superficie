@@ -1,0 +1,121 @@
+body{
+    padding: 10px;
+}
+
+/*--Header--*/
+header{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background: rgb(120, 218, 23);
+
+    text-shadow: 2px 2px 2px black;
+    .header-section{
+        display: flex;
+        align-items: center;        
+    }
+    
+}
+.fa-screwdriver-wrench{
+    font-size: 65px;
+    margin-left: 30px;
+    }    
+h1{
+    font-size: 65px;
+    margin-left: 30px;
+    }
+nav{
+    display: flex;    
+}
+ul{
+    display: flex;
+    align-items: center;    
+    list-style-type: none;    
+    font-size: 25px;    
+}
+li{
+    margin-right: 25px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    
+}
+/*--Main--*/
+main{
+    display: flex;
+    justify-content: center;
+}
+.section-boutton-superficie{
+    margin-top: 250px;    
+    height: 150px;
+    width: 350px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--Boutton superficie--*/
+.superficie{
+    height: 120px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 5px;    
+}
+.superficie:hover{
+    background: greenyellow;
+}
+/*--Modale superficie--*/
+.section-modale-superficie{
+    border: 1px solid black;
+    width: 500px;
+    height: 600px;
+    background: rgba(205, 112, 12, 0.701);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+/*--logo croix fermer modale--*/
+.fa-xmark{
+    font-size: 22px;
+    margin-left: 465px;
+    margin-top: 5px;
+}
+/*--Champ de formulaire number--*/
+.section-modale-superficie{
+    display: flex;    
+    align-items: center;
+    margin-top: 45px;
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.div-modale-superficie{
+    margin-top: 80px;    
+    height: 500px;    
+    width: 300px;    
+}
+.form-superficie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 25px;
+}
+.input-number{
+    height: 40px ;
+    font-size: 20px;
+    text-align: center;    
+}
+.resultat-superficie{
+    font-size: 35px;
+    color: white;    
+}
+.text-output{
+    font-size: 25px;
+    text-align: center;
+}
